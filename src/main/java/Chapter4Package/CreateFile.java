@@ -11,6 +11,8 @@ import java.util.Formatter;
  *
  * @author Drew
  */
+
+// This creates a file and add records to the file for the DistanceTraveledToFile.java
 public class CreateFile {
     
     private Formatter x;
