@@ -5,6 +5,8 @@
  */
 package Chapter4Package;
 
+import java.util.Scanner;
+
 
 /**
  *
@@ -20,4 +22,32 @@ package Chapter4Package;
 
 public class MotelOccupancy_7 {
 
+    public static void main(String[] args) {
+        Scanner keyboard = new Scanner(System.in);
+        System.out.println("How many floors are there in the hotel?");
+        int numberOfFloors = keyboard.nextInt();
+        int i;
+        double totalRooms = 0;
+        double roomsOccupied = 0;
+        double occupancyRate = 0;
+        
+        if (numberOfFloors < 1) {
+            System.out.println("That is not a valid value");
+        } else if (numberOfFloors >= 1) {
+            for (i=1; i<=numberOfFloors; i++) {
+                System.out.println("How many rooms are there on floor " + i);
+                totalRooms += keyboard.nextInt();
+                System.out.println("How many rooms are occupied on floor " + i);
+                roomsOccupied += keyboard.nextInt();
+                
+                
+            }
+            
+            System.out.println("The total rooms in the hotel is: " + totalRooms);
+            System.out.println("The total rooms ocupied in the hotel is: " + roomsOccupied);
+            occupancyRate = roomsOccupied / totalRooms;
+            System.out.println("The occupancy rate is : " + occupancyRate + "%");
+        }
+
+    }
 }
