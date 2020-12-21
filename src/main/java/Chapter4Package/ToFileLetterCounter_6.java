@@ -9,6 +9,6 @@ package Chapter4Package;
  *
  * @author Drew
  */
-public class ToFileLetterCounter {
+public class ToFileLetterCounter_6 {
     
 }

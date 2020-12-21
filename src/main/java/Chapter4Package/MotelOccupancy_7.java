@@ -18,6 +18,6 @@ package Chapter4Package;
 // During each iteration, the loop should ask the user for the number of rooms on the floor and then the number of them that are occupied.
 // After all iterations, the program should display the number of rooms the motel has, the number of them that are occupied, and the number that are vacant, and the occupancy rate for the motel.
 
-public class MotelOccupancy {
+public class MotelOccupancy_7 {
 
 }

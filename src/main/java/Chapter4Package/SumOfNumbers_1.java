@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author Drew
  */
-public class SumOfNumbers {
+public class SumOfNumbers_1 {
     
     public static void sumOfNumbers() {
         Scanner keyboard = new Scanner(System.in);

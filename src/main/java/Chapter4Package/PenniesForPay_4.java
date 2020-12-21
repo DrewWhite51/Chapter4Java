@@ -19,7 +19,7 @@ import java.util.Scanner;
 // The output should be displayed in a dollar amount not the number pennies.
 
 
-public class PenniesForPay {
+public class PenniesForPay_4 {
     
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);

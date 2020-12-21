@@ -17,7 +17,7 @@ import java.util.Scanner;
 // The program should count and display the number of times that the specified character appears in the string
 
 
-public class LetterCounter {
+public class LetterCounter_5 {
     
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
