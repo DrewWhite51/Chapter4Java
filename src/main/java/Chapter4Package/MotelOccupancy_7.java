@@ -36,9 +36,9 @@ public class MotelOccupancy_7 {
         } else if (numberOfFloors >= 1) {
             for (i=1; i<=numberOfFloors; i++) {
                 System.out.println("How many rooms are there on floor " + i);
-                totalRooms += keyboard.nextInt();
+                totalRooms += keyboard.nextDouble();
                 System.out.println("How many rooms are occupied on floor " + i);
-                roomsOccupied += keyboard.nextInt();
+                roomsOccupied += keyboard.nextDouble();
                 
                 
             }
